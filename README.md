@@ -10,3 +10,8 @@ git clone https://github.com/你的GitHub名/myweather-seniverse.git
 cd myweather-seniverse
 cp .env.example .env        # 填写 SENIVERSE_KEY
 docker-compose up           # 本地 http://localhost:8080
+
+Weather data is provided by Seniverse (https://www.seniverse.com) under its free-tier terms.
+This wrapper does not alter the original data semantics and retains all disclaimers
+published by Seniverse. For accuracy or redistribution restrictions please refer to
+https://www.seniverse.com/terms
